@@ -14,6 +14,7 @@ struct JUMPMANXApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView(store: store)
+                .environmentObject(CartManager())
         }
     }
 }

@@ -31,5 +31,5 @@ class SneakerStore: ObservableObject {
         }
         .resume()
     }
-
+    
 }
