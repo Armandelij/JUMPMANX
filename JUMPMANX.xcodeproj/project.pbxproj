@@ -14,6 +14,7 @@
 		BE9D4A862927F0C1001E26D9 /* SneakerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D4A852927F0C1001E26D9 /* SneakerRow.swift */; };
 		BE9D53C8292682CD003CC5AC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D53C7292682CC003CC5AC /* ImageLoader.swift */; };
 		BE9D53CB29268454003CC5AC /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D53CA29268454003CC5AC /* URLImage.swift */; };
+		BE9F9133292A8E2C0037E876 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9F9132292A8E2C0037E876 /* SplashScreen.swift */; };
 		BEA093A42919FF2400C1E535 /* JUMPMANXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA093A32919FF2400C1E535 /* JUMPMANXApp.swift */; };
 		BEA093A62919FF2400C1E535 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA093A52919FF2400C1E535 /* ContentView.swift */; };
 		BEA093A82919FF2D00C1E535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA093A72919FF2D00C1E535 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		BE9D4A852927F0C1001E26D9 /* SneakerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerRow.swift; sourceTree = "<group>"; };
 		BE9D53C7292682CC003CC5AC /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		BE9D53CA29268454003CC5AC /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		BE9F9132292A8E2C0037E876 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		BEA093A02919FF2400C1E535 /* JUMPMANX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JUMPMANX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA093A32919FF2400C1E535 /* JUMPMANXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JUMPMANXApp.swift; sourceTree = "<group>"; };
 		BEA093A52919FF2400C1E535 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				BE9D53CA29268454003CC5AC /* URLImage.swift */,
 				BE9D4A812927D86C001E26D9 /* CartView.swift */,
 				BEC125482929358F00F206CC /* ShoeView.swift */,
+				BE9F9132292A8E2C0037E876 /* SplashScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9F9133292A8E2C0037E876 /* SplashScreen.swift in Sources */,
 				BEC125492929358F00F206CC /* ShoeView.swift in Sources */,
 				BEA093A62919FF2400C1E535 /* ContentView.swift in Sources */,
 				BE9D4A842927D9F9001E26D9 /* CartManager.swift in Sources */,

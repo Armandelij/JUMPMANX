@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct URLImage: View {
-    
     let url: String
     let placeholder: String
     

@@ -26,7 +26,8 @@ struct ContentView: View {
                                     Rectangle()
                                         .fill(Color("shoe-background"))
                                         .padding(5)
-                                    // fix backround image
+                                        .cornerRadius(25)
+        
                                     URLImage(url: sneaker.picture)
                                         .frame(width: 200, height: 200)
                                     
@@ -35,7 +36,7 @@ struct ContentView: View {
                                     } label: {
                                         Image(systemName: "plus")
                                             .padding(5)
-                                            .foregroundColor(.black)
+                                            .foregroundColor(Color("plus-button"))
                                     }
                                 }
                                 
