@@ -14,7 +14,6 @@ struct SplashScreen: View {
     var body: some View {
         if isActive {
             ContentView(store: SneakerStore())
-                .environmentObject(CartManager())
         } else {
             ZStack {
                 Color(.black)
