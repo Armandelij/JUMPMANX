@@ -12,7 +12,7 @@ struct SneakerResponse: Decodable {
     let sneakers: [Sneaker]
 }
 
-struct Sneaker: Codable, Identifiable {
+struct Sneaker: Codable, Identifiable, Equatable {
     let id: Int
     let name: String
     let price: Int

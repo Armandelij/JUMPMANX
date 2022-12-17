@@ -9,7 +9,6 @@ import SwiftUI
 
 @main
 struct JUMPMANXApp: App {
-    @StateObject var store = SneakerStore()
     
     var body: some Scene {
         WindowGroup {

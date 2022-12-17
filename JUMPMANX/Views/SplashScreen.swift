@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct SplashScreen: View {
+    @StateObject var order = Order()
+    
     @State var isActive: Bool = false
     @State private var size = 0.8
     
     var body: some View {
         if isActive {
-            ContentView(store: SneakerStore())
+            MainView()
+                .environmentObject(order)
         } else {
             ZStack {
                 Color(.black)
