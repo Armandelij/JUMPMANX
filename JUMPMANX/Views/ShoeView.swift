@@ -18,39 +18,27 @@ struct ShoeView: View {
     var sneaker: Sneaker
     
     var body: some View {
-        //        VStack {
-        //            ZStack {
-        //                Rectangle()
-        //                    .fill(Color("shoe-background"))
-        //                URLImage(url: sneaker.picture)
-        //                    .frame(width: 450, height: 450)
-        //                    .rotationEffect(.degrees(50))
-        //            }
-        //            .ignoresSafeArea()
-        //            .padding(.leading, 50)
-        //
-        //            Button("Order This") {
-        //                order.add(item: sneaker)
-        //            }
-        //
-        //        }
-        
-        
         
         VStack {
             URLImage(url: sneaker.picture)
                 .frame(width: 450, height: 450)
                 .rotationEffect(.degrees(50))
-                
+                .padding(.leading, 100)
+            
             
             
             VStack(alignment: .trailing ) {
-                Button("Order This") {
+                Button() {
                     order.add(item: sneaker)
+                } label: {
+                    Image(systemName: "cart.badge.plus")
+                        .font(.largeTitle)
+                        .foregroundColor(Color("check-out-button"))
+                    
                 }
             }
             .padding(.trailing, 260)
-            .padding()
+            .padding(.bottom, 100)
         }
     }
 }

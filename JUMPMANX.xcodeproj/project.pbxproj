@@ -16,6 +16,10 @@
 		BEA093A82919FF2D00C1E535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA093A72919FF2D00C1E535 /* Assets.xcassets */; };
 		BEA093AB2919FF2D00C1E535 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA093AA2919FF2D00C1E535 /* Preview Assets.xcassets */; };
 		BEA093B22919FF6F00C1E535 /* SneakerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA093B12919FF6F00C1E535 /* SneakerDataModel.swift */; };
+		BEA89659294EB92700F963C3 /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA89658294EB92700F963C3 /* CheckOutView.swift */; };
+		BEA8965B294EBCE700F963C3 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8965A294EBCE700F963C3 /* CreditCardView.swift */; };
+		BEA8965D294EBD8600F963C3 /* CreditCardFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8965C294EBD8600F963C3 /* CreditCardFront.swift */; };
+		BEA8965F294EBFAC00F963C3 /* CreditCardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8965E294EBFAC00F963C3 /* CreditCardBack.swift */; };
 		BEAF8416294C30F4007BA624 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAF8415294C30F4007BA624 /* Order.swift */; };
 		BEAF8418294C3693007BA624 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAF8417294C3693007BA624 /* OrderView.swift */; };
 		BEAF841A294C3980007BA624 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAF8419294C3980007BA624 /* MainView.swift */; };
@@ -33,6 +37,10 @@
 		BEA093A72919FF2D00C1E535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEA093AA2919FF2D00C1E535 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BEA093B12919FF6F00C1E535 /* SneakerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerDataModel.swift; sourceTree = "<group>"; };
+		BEA89658294EB92700F963C3 /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
+		BEA8965A294EBCE700F963C3 /* CreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
+		BEA8965C294EBD8600F963C3 /* CreditCardFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardFront.swift; sourceTree = "<group>"; };
+		BEA8965E294EBFAC00F963C3 /* CreditCardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardBack.swift; sourceTree = "<group>"; };
 		BEAF8415294C30F4007BA624 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		BEAF8417294C3693007BA624 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		BEAF8419294C3980007BA624 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -83,6 +91,10 @@
 				BE9F9132292A8E2C0037E876 /* SplashScreen.swift */,
 				BEAF8417294C3693007BA624 /* OrderView.swift */,
 				BEAF8419294C3980007BA624 /* MainView.swift */,
+				BEA89658294EB92700F963C3 /* CheckOutView.swift */,
+				BEA8965A294EBCE700F963C3 /* CreditCardView.swift */,
+				BEA8965C294EBD8600F963C3 /* CreditCardFront.swift */,
+				BEA8965E294EBFAC00F963C3 /* CreditCardBack.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,16 +208,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA8965F294EBFAC00F963C3 /* CreditCardBack.swift in Sources */,
+				BEA8965D294EBD8600F963C3 /* CreditCardFront.swift in Sources */,
 				BE9F9133292A8E2C0037E876 /* SplashScreen.swift in Sources */,
 				BEC125492929358F00F206CC /* ShoeView.swift in Sources */,
 				BEA093A62919FF2400C1E535 /* ContentView.swift in Sources */,
 				BEAF8416294C30F4007BA624 /* Order.swift in Sources */,
 				BE9D53CB29268454003CC5AC /* URLImage.swift in Sources */,
+				BEA8965B294EBCE700F963C3 /* CreditCardView.swift in Sources */,
 				BEA093A42919FF2400C1E535 /* JUMPMANXApp.swift in Sources */,
 				BE9D53C8292682CD003CC5AC /* ImageLoader.swift in Sources */,
 				BEAF841A294C3980007BA624 /* MainView.swift in Sources */,
 				BE26178229240C6D00558274 /* NetworkManager.swift in Sources */,
 				BEA093B22919FF6F00C1E535 /* SneakerDataModel.swift in Sources */,
+				BEA89659294EB92700F963C3 /* CheckOutView.swift in Sources */,
 				BEAF8418294C3693007BA624 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +357,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,8 +386,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -26,10 +26,10 @@ struct ContentView: View {
                                         .fill(Color("shoe-background"))
                                         .padding(5)
                                         .cornerRadius(25)
-        
+                                    
                                     URLImage(url: sneaker.picture)
                                         .frame(width: 100, height: 100)
-
+                                    
                                 }
                                 
                                 Text(sneaker.name)
@@ -52,6 +52,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(store: SneakerStore())
-            
+        
     }
 }
