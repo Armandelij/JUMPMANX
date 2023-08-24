@@ -1,5 +1,5 @@
 # JUMPMANX (Pending review in the app store)
-JUMPMANX is a server driven sneaker Store that allows user to click on a sneaker to see a larger image as well as add sneakers to a cart. 
+JUMPMANX is a server driven sneaker Store that allow users to click on a sneaker to see a larger image as well as adding sneakers to a cart. 
 
 
 
